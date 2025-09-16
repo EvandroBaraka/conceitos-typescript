@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
-    "noImplicitAny": false
-    
+    "noImplicitAny": false,
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["components/*"]
+    }
   }
 }
